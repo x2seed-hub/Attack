@@ -7907,6 +7907,3 @@ end)
 Player:Slider("Point To Add", 0, 2550, 1, function(value)
     _G.PointStats = value
 end)
-else
-game.Players.LocalPlayer:Kick("Incorrect Key")
-end
